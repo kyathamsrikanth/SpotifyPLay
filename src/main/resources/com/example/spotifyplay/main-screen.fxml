@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox alignment="CENTER" spacing="10.0">
+            <HBox spacing="10.0">
+                <Label text="Filter by Artist:" />
+                <TextField fx:id="filterField" promptText="Enter artist name" />
+            </HBox>
+            <ListView fx:id="songList" prefHeight="300.0" prefWidth="500.0" />
+            <HBox spacing="10.0">
+                <Button fx:id="addButton" text="Add to Playlist" />
+                <Button fx:id="createButton" text="Create Playlist" />
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>
